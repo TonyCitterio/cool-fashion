@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import classes from "./NewArrivals.module.css"
+import classes from "./NewArrivalSlideshow.module.css"
 
-const NewArrivals = () => {
+const NewArrivalSlideshow = () => {
   return (
     <>
       <h1>Hallå</h1>
@@ -10,4 +10,4 @@ const NewArrivals = () => {
   );
 };
 
-export default NewArrivals;
+export default NewArrivalSlideshow;

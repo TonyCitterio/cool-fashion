@@ -5,7 +5,7 @@ import classes from "./Home.module.css"
 const Home = () => {
   return (
     <>
-      <Link to="newArrivals">
+      <Link to="newArrivalSlideshow">
         <img
           src={newArrivals}
           alt="New Arrivals"
