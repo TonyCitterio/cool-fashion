@@ -1,5 +1,13 @@
+.content {
+  height: 100vh;
+  background: #333333;
+  color: white;
+}
+
 .link {
   text-decoration: none;
+  font: inherit;
+  color: white;
   font-size: 2rem;
   transition: font-size 0.4s;
 }

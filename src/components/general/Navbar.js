@@ -5,7 +5,14 @@ const Navbar = () => {
   return (
     <>
       <nav className={classes.nav}>
-        <h1>Cool Fashion</h1>
+        <h1>COOL FASHION STORE</h1>
+        <div className={classes.navigation}>
+          <Link className={classes.link} to="guy">KILLE</Link>
+          <p>TJEJ</p>
+          <p>UNISEX</p>
+          <p>NYHETER</p>
+          <p>VARUMÄRKEN</p>
+        </div>
       </nav>
     </>
   );
