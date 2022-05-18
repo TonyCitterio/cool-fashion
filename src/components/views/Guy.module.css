@@ -1,19 +1,46 @@
 .content {
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   background: #333333;
   color: white;
+  padding: 0 5em 0 5em;
 }
 
 .link {
+  padding: 1rem;
   text-decoration: none;
   font: inherit;
   color: white;
   font-size: 2rem;
-  transition: font-size 0.4s;
+  /* box-shadow:  0 0 0 10px transparent;
+  transition: font-size 0.4s; */
 }
 
-.link:hover,
+/* .link:hover,
 .link:active {
   font-size: 2.2rem;
   transition: font-size 0.4s;
+} */
+
+.category {
+  margin-top: 1rem;
+}
+
+.guysWear {
+  margin: 0.6rem 1rem 1.5rem 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90vh; 
+}
+
+.prod {
+  margin: 0.6rem 1.5rem 1.5rem 0rem;
+}
+
+.img {
+  margin-top: 0.6rem;
 }
