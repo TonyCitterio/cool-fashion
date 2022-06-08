@@ -8,6 +8,10 @@
   padding: 0 5em 0 5em;
 }
 
+.content button {
+  width: 50px;
+}
+
 .link {
   padding: 1rem;
   text-decoration: none;
@@ -44,3 +48,4 @@
 .img {
   margin-top: 0.6rem;
 }
+
