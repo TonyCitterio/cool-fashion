@@ -9,7 +9,7 @@
 }
 
 .content button {
-  width: 50px;
+  width: 60px;
 }
 
 .link {
@@ -18,15 +18,7 @@
   font: inherit;
   color: white;
   font-size: 2rem;
-  /* box-shadow:  0 0 0 10px transparent;
-  transition: font-size 0.4s; */
 }
-
-/* .link:hover,
-.link:active {
-  font-size: 2.2rem;
-  transition: font-size 0.4s;
-} */
 
 .category {
   margin-top: 1rem;
@@ -41,11 +33,19 @@
   width: 90vh; 
 }
 
+.guysWear p {
+  margin-bottom: 0.2rem;
+}
+
+.guysWear button {
+  margin-top: 0.25rem;
+}
+
 .prod {
   margin: 0.6rem 1.5rem 1.5rem 0rem;
+  cursor: pointer;
 }
 
 .img {
   margin-top: 0.6rem;
 }
-

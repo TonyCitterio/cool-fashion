@@ -1,13 +1,13 @@
 import React from 'react';
 import classes from "./Modal.module.css";
-import { IoCloseCircleOutline } from "react-icons/io5";
+import { HiOutlineXCircle } from "react-icons/hi";
 
 const Modal = ({ setModalOpen, message, setMessage }) => {
  
         return (
             <div className={classes.backdrop}>
                 <div className={classes.box}>
-                    <IoCloseCircleOutline
+                    <HiOutlineXCircle
                     className={classes.icon}
                     onClick={() => {
                         setModalOpen(false);
@@ -17,9 +17,6 @@ const Modal = ({ setModalOpen, message, setMessage }) => {
                 </div>
             </div>
         );
-
-
-    
 };
 
 export default Modal;
