@@ -1,23 +1,29 @@
 .pictureBox {
   width: 80%;
-  height: 350px;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5rem;
+  position: relative;
 }
 
 .leftArrow {
-  width: 30px;
-  height: 30px;
-  color: white;
-  margin-left: 1rem;
+  position: absolute;
+  right: 349px;
+  width: 55px;
+  height: 55px;
+  color: #2a9d8f;
+  margin-left: 5rem;
   cursor: pointer;
 }
 
 .rightArrow {
-  width: 30px;
-  height: 30px;
-  color: white;
-  margin-right: 1rem;
+  position: absolute;
+  left: 349px;
+  width: 55px;
+  height: 55px;
+  color: #2a9d8f;
+  margin-right: 5rem;
   cursor: pointer;
 }

@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { IoArrowBackOutline, IoArrowForwardOutline } from "react-icons/io5";
+import { HiChevronDoubleLeft, HiChevronDoubleRight } from "react-icons/hi";
 import { pictures } from "./SliderAlternativeData";
 import classes from "./SliderAlternative.module.css"
 
@@ -18,11 +18,11 @@ const SliderAlternative = () => {
     return (
         <>
         <div className={classes.pictureBox}>
-            <IoArrowBackOutline className={classes.rightArrow} onClick={prevPicture} />
+            <HiChevronDoubleLeft className={classes.rightArrow} onClick={prevPicture} />
             {pictures.map((picture, index) => {
                 return <div key={index}>{index === current && <div>{picture}</div>}</div>;
             })};
-            <IoArrowForwardOutline className={classes.leftArrow} onClick={nextPicture} />
+            <HiChevronDoubleRight className={classes.leftArrow} onClick={nextPicture} />
         </div>
         </>
     );

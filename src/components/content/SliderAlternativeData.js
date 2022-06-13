@@ -5,7 +5,7 @@ import p3 from "../pictures/nyheter3.png";
 const picture1 = () => {
   return (
     <>
-      <img src={p1} alt="New Arrivals" height={350} width={1000}></img>
+      <img src={p1} alt="New Arrivals" height={450} width={1350}></img>
     </>
   );
 };
@@ -13,7 +13,7 @@ const picture1 = () => {
 const picture2 = () => {
   return (
     <>
-      <img src={p2} alt="New Arrivals" height={350} width={1000}></img>
+      <img src={p2} alt="New Arrivals" height={450} width={1350}></img>
     </>
   );
 };
@@ -21,7 +21,7 @@ const picture2 = () => {
 const picture3 = () => {
   return (
     <>
-      <img src={p3} alt="New Arrivals" height={350} width={1000}></img>
+      <img src={p3} alt="New Arrivals" height={450} width={1350}></img>
     </>
   );
 };

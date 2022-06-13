@@ -1,5 +1,5 @@
 .nav {
-  height: 20vh;
+  height: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,7 +9,8 @@
 }
 
 .nav h1 {
-  margin-bottom: 0.5rem;
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
 }
 
 .navigation {
@@ -17,12 +18,12 @@
 }
 
 .navigation p {
-  margin-right: 1rem;
+  margin-right: 0.3rem;
   cursor: pointer;
 }
 
 .link  {
   text-decoration: none;
   color: white;
-  margin-right: 1rem;
+  margin-right: 0.3rem;
 }
