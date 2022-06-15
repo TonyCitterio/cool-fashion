@@ -15,3 +15,11 @@
 .slider {
     height: 300px;
 }
+
+.btnMovies {
+    padding: 0.75em 1.5em;
+    z-index: 2000000;
+    position: sticky;
+    bottom: 10px;
+    right: 0;
+}
